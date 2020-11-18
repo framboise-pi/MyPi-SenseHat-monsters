@@ -1,2 +1,1 @@
-# MySenseHatClock
-Raspberry SenseHat clock with configuration
+# MyPi SenseHat Monsters
