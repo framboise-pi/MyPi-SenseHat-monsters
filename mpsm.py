@@ -76,6 +76,3 @@ def DisplayOneRandomMonsterWithMyColors(sense, bg, fg, other):
 			print("--- [ERROR] wrong RGB tuples")
 	else:
 		print("----[ERROR] sensehat not found")
-
-
-	# from COLORDEFINED MONSTERZ colordefined[]
