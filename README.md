@@ -18,10 +18,18 @@ DisplayOneRandomMonster(sense)
 from sense_hat import SenseHat
 from mpsm import *
 <br>
-rouge = (255,0,0)
-blanc = (255,255,255)
-vide = (0,0,0)
+background = (255,0,0)
+foreground = (255,255,255)
+other = (0,0,0)
 <br>
 sense = SenseHat()
-DisplayOneRandomMonsterWithMyColors(sense, rouge, blanc, vide)
+DisplayOneRandomMonsterWithMyColors(sense, background, foreground, other)
 </code>
+<br>
+<br>
+Duotones pixelarts are colored-made this way:
+<ul>
+  <li>background is for the background color</li>
+  <li>foreground is the duotone monster main color</li>
+  <li>other is the duotone monster secondary color (eyes, accessories,...)</li>
+</ul>
